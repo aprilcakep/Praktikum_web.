@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Appinng Shop : Telur</title>
+
+    <!-- CSS Boostrap -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+
+    <!-- css Internal -->
+    <style>
+        .bg-default{
+            background-color: yellow;
+        }
+        .text-default{
+            color:yellow
+        }
+        .text-justify{
+          text-align: justify;
+        }
+        section{
+          padding: 5%;
+        }
+    </style>
+
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-default fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">Apping Shop</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse d-flax justify-content-end" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="../Indeks.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../Biodata/Indeks.html">Biodata</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../About/Indeks.html">About</a>
+            <li class="nav-item">
+              <a class="nav-link" href="../user/Indeks.html">Login</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+      <!-- content -->
+      <section class="container mt-5">
+        <div class="row d-flex justify-content-center">
+          <div class="col-8">
+            <img src="../img/img9.PNG" class="img-fluid rounded" alt="...">
+            <figcaption>Update 2024-12-12</figcaption>
+          </div>
+        </div>
+
+        <div class="row mt-5 d-flex justify-content-center"> 
+          <div class="col-10">
+            <h3>Telur</h3>
+            <p class="text-justify">
+              Sapi merupakan hewan herbivora juga termasuk subfamili Bovidae yakni
+              Bovinae. Subfamili ini mencakup berbagai kelompok tersebar 10 genus hewan
+              berkuku berukuran medium hingga besar, termasuk sapi domestik, bison, dan
+              kerbau. Di beberapa tempat, jenis hewan Bovinae digunakan sebagai sumber
+              makanan. 
+            </p>
+          </div>
+        </div>
+
+        <!-- Daftar Harga -->
+        <div class="row mt-3 d-flex justify-content-center ">
+          <div class="col-10">
+            <h3>Daftar Harga</h3>
+            <div class="mt-3">
+              <table class="table">
+              <thead class="table-dark">
+                <tr>
+                  <th class="text-center col-1">No.</th>
+                  <th class="text-center col-3">Jenis</th>
+                  <th class="text-center col-8">Harga</th>
+                </tr>
+              </thead>
+              <tbody><tr>
+                <td class="text-center">1.</td>
+                <td class="text-center">sapi brahman</td>
+                <td class="text-center">Rp. 10.000</td>
+              </tr>
+              <tr>
+                <td class="text-center">2.</td>
+                <td class="text-center">sapi limosin</td>
+                <td class="text-center">Rp. 15.000</td>
+              </tr>
+              <tr>
+                <td class="text-center">3.</td>
+                <td class="text-center">Sapi Bali</td>
+                <td class="text-center">Rp. 12.000</td>
+              </tr>
+
+              </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+
+        <!-- Pembelian -->
+        <div class="row mt-3 mb-5 d-flex justify-content-center">
+          <div class="col-10">
+            <h3>Buat Pesanan</h3>
+            <form action="#">
+              <div class="mb-3">
+                <label for="Email" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="Email" >
+              </div>
+
+              <div class="mb-3">
+                <label for="name" class="form-label">Nama Lengkap</label>
+                <input type="text" class="form-control" id="name" >
+              </div>
+
+              <div class="mb-3">
+                <select class="form-select" aria-label="Default select example">
+                  <option selected>Pilih sapi</option>
+                  <option value="1">sapi brahman</option>
+                  <option value="2">sapi limosin</option>
+                  <option value="3">sapi bali</option>
+                </select>
+              </div>
+              <div class="mb-3">
+                <label for="Keterangan" class="form-label">Keterangan</label>
+                <textarea class="form-control" id="Keterangan" rows="3"></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">Pesan</button>
+            </form>
+          </div>
+        </div>
+      </section>
+      <footer class="mt-5 py-3 bg-default">
+        <div class="row">
+          <div class="col">
+            <h5 class="text-primary text-center">Create by @Apping Gacor</h5>
+          </div>
+        </div>
+      </footer>
+      <script src="../js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

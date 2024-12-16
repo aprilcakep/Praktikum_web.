@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Apping Shop : Home</title>
+
+    <!-- CSS Boostrap -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+
+    <!-- css Internal -->
+    <style>
+        .bg-default{
+            background-color: yellow;
+        }
+        .text-default{
+            color:rgb(0, 4, 255)
+        }
+        section{
+          padding: 3%;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-default fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="#">Apping Shop</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse d-flax justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./Biodata/Indeks.html">Biodata</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./About/Indeks.html">About</a>
+              <li class="nav-item">
+                <a class="nav-link" href="./user/Indeks.html">Login</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- sampul -->
+      <section class="container mt-5">
+        <div class="row mt-5 d-flex justify-content-center">
+            <div class="col-5">
+                <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="./img/img.1.jpg" class="d-block w-100  rounded-4" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./img/img2.jpg" class="d-block w-100 rounded-4" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./img/img3.jpg" class="d-block w-100 rounded-4" alt="...">
+                      </div>
+                      <div><div class="carousel-item">
+                        <img src="./img/img4.jpg" class="d-block w-100 rounded-4" alt="...">
+                      </div>
+                      <div><div class="carousel-item">
+                        <img src="./img/img5.jpg" class="d-block w-100 rounded-4" alt="...">
+                      </div>
+                      <div><div class="carousel-item">
+                        <img src="img/img6.jpg" class="d-block w-100 rounded-4" alt="...">
+                      </div>
+                      <div><div class="carousel-item">
+                        <img src="./img/img7.jpg" class="d-block w-100 rounded-4" alt="...">
+                      </div>
+                      <div><div class="carousel-item">
+                        <img src="./img/img8.PNG" class="d-block w-100 rounded-4" alt="...">
+                      </div>
+                    </div>
+                    <div><div class="carousel-item">
+                        <img src="./img/img9.PNG" class="d-block w-100 rounded-4" alt="...">
+                    </div>
+                    <div><div class="carousel-item">
+                      <img src="./img/img10.PNG" class="d-block w-100 rounded-4" alt="...">
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+            </div>
+        </div>
+      </section>
+
+      <!-- search -->
+      <section class="container mt-5">
+        <div class="row d-flex justify-content-center">
+            <div class="col-6">
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" id="find" onkeyup="search()" />
+                  </form>
+            </div>
+        </div>
+      </section>
+
+      <!-- content -->
+      <section class="container mt-5">
+        <div class="row">
+            <div class="col-4 item-list">
+                <a href="./content/Indeks-item01.html">
+                    <figure class="figure">
+                        <img src="./img/img.1.jpg" class="figure-img img-fluid rounded-4" alt="...">
+                        <figcaption class="figure-caption">Update: <span>2024-12-07</span></figcaption>
+                        <h6 class="text-default">Telur Puyu</h6>
+                      </figure>
+                </a>
+            </div>
+            <div class="col-4 item-list">
+                <a href="./content/Indeks-item02.html">
+                    <figure class="figure">
+                        <img src="./img/img2.jpg" class="figure-img img-fluid rounded-4" alt="...">
+                        <figcaption class="figure-caption">Update: <span>2024-12-07</span></figcaption>
+                        <h6 class="text-default">Telur Ayam</h6>
+                      </figure>
+                </a>   
+            </div>
+
+            <div class="col-4 item-list">
+                <a href="./content/Indeks-item03.html">
+                    <figure class="figure">
+                        <img src="./img/img3.jpg" class="figure-img img-fluid rounded-4" alt="...">
+                        <figcaption class="figure-caption">Update: <span>2024-12-07</span></figcaption>
+                        <h6 class="text-default">Telur Itik</h6>
+                      </figure>
+                </a>
+            </div>
+
+            <div class="row">
+              <div class="col-md-4 item-list">
+                <a href="./content/Indeks-item04.html">
+                  <figure class="figure">
+                    <img src="./img/img4.jpg" class="figure-img img-fluid rounded-4" alt="..." width="300" height="200">
+                    <figcaption class="figure-caption">Update: <span>2024-12-07</span></figcaption>
+                    <h6 class="text-default">Telur Ayam</h6>
+                  </figure>
+                </a>
+              </div>
+              
+              
+              <div class="col-md-4 item-list">
+                <a href="./content/Indeks-item05.html">
+                  <figure class="figure">
+                    <img src="./img/img5.jpg" class="figure-img img-fluid rounded-4" alt="..." width="300" height="200">
+                    <figcaption class="figure-caption">Update: <span>2024-12-07</span></figcaption>
+                    <h6 class="text-default">Telur Ayam</h6>
+                  </figure>
+                </a>
+              </div>
+              
+              
+              <div class="col-md-4 item-list">
+                <a href="./content/Indeks-item06.html">
+                  <figure class="figure">
+                    <img src="./img/img6.jpg" class="figure-img img-fluid rounded-4" alt="..." width="300" height="200">
+                    <figcaption class="figure-caption">Update: <span>2024-12-07</span></figcaption>
+                    <h6 class="text-default">Telur Itik</h6>
+                  </figure>
+                </a>
+              </div>
+              
+              
+              <div class="col-md-4 item-list">
+                <a href="./content/Indeks-item07.html">
+                  <figure class="figure">
+                    <img src="./img/img7.jpg" class="figure-img img-fluid rounded-4" alt="..." width="300" height="200">
+                    <figcaption class="figure-caption">Update: <span>2024-12-07</span></figcaption>
+                    <h6 class="text-default">Telur Itik</h6>
+                  </figure>
+                </a>
+              </div>
+              
+              
+              <div class="col-md-4 item-list">
+                <a href="./content/Indeks-item08.html">
+                  <figure class="figure">
+                    <img src="./img/img8.PNG" class="figure-img img-fluid rounded-4" alt="..." width="300" height="200">
+                    <figcaption class="figure-caption">Update: <span>2024-12-07</span></figcaption>
+                    <h6 class="text-default">Sapi</h6>
+                  </figure>
+                </a>
+              </div>
+              
+              
+              <div class="col-md-4 item-list">
+                <a href="./content/Indeks-item09.html">
+                  <figure class="figure">
+                    <img src="./img/img9.PNG" class="figure-img img-fluid rounded-4" alt="..." width="300" height="200">
+                    <figcaption class="figure-caption">Update: <span>2024-12-07</span></figcaption>
+                    <h6 class="text-default">Sapi</h6>
+                  </figure>
+                </a>
+              </div>
+              
+              
+              <div class="col-md-4 item-list">
+                <a href="./content/Indeks-item10.html">
+                  <figure class="figure">
+                    <img src="./img/img10.PNG" class="figure-img img-fluid rounded-4" alt="..." width="300" height="200">
+                    <figcaption class="figure-caption">Update: <span>2024-12-07</span></figcaption>
+                    <h6 class="text-default">Sapi</h6>
+                  </figure>
+                </a>
+              </div>
+            </div>
+              
+            </section>
+
+      <!-- footer -->
+            <footer class="mt-5 py-3 bg-default">
+              <div class="row">
+                <div class="col">
+                  <h5 class="text-primary text-center">Create by @Apping Gacor</h5>
+                </div>
+              </div>
+            </footer>
+            
+            <script src="./js/bootstrap.bundle.min.js"></script>
+            <script>
+              function search(){
+                let filter =document.getElementById("find").value.toUpperCase();
+                let items = document.querySelectorAll(".item-list");
+
+                for(let i=0; i<items. length;i++){
+                 let item = items[i].getElementsByTagName("h6")[0];
+                  let date = items[i].getElementsByTagName("span")[0];
+                  let value1 = item.innerHTML || item.innerText || item.textContent;
+                  let value2 = date.innerHTML || date.innerText || date.textContent;
+                  if((value1.toUpperCase()+" "+value2.toUpperCase()).indexOf(filter)>-1){
+                    items[i].style.display="";
+                  } else{
+                    items[i].style.display="none";
+                  }
+                }
+                
+              }
+
+                
+
+            </script>
+          </body>
+          </html>
